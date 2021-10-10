@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PcBodyTracking.cpp" />
+    <ClCompile Include="..\CommonBT\BitSaving.cpp">
+      <Filter>CommonBT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonBT\udp.cpp">
+      <Filter>CommonBT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CommonBT">
+      <UniqueIdentifier>{c720f4ab-294d-4572-808c-9620ad7d8e3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommonBT\BodyStruct.h">
+      <Filter>CommonBT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonBT\BitSaving.h">
+      <Filter>CommonBT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonBT\udp.h">
+      <Filter>CommonBT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
