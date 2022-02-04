@@ -15,6 +15,7 @@ products:
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 This sample is a Holographic UWP application that demonstrates full-body tracking with a remote server. The application is based on the sensor visualization sample.
+How-to video: https://youtu.be/4nZ91RuB40E (in Japanese)
 
 ## Contents
 
